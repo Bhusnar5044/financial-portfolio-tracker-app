@@ -1,0 +1,126 @@
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  text-align: center;
+}
+input::placeholder {
+  font-size: 1.3vw;
+}
+
+label {
+  margin-left: 20px;
+}
+form {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-between;
+  margin-top: 20px;
+}
+
+.AddStockForm {
+  background-color: whitesmoke;
+  height: 500px;
+  position: fixed;
+  width: 80%;
+  border-radius: 10px;
+  left: 10%;
+  top: 10%;
+  box-sizing: border-box;
+}
+.AddButton {
+  width: 80px;
+  height: 35px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #fa983a;
+  color: whitesmoke;
+  border: whitesmoke;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.AddButton:focus,
+.CLOSEBUTTON:focus {
+  outline: none;
+  transition: all 0.4s ease-in-out;
+}
+.AddButton:hover {
+  background-color: rgba(247, 202, 24, 0.4);
+  transform: scale(1.1);
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  border: 0.3px solid black;
+}
+.CLOSEBUTTON {
+  width: 80px;
+  height: 35px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #eb2f06;
+  border: whitesmoke;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.CLOSEBUTTON:hover {
+  background-color: rgba(255, 0, 0, 0.4);
+  transform: scale(1.1);
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  border: 0.3px solid black;
+}
+
+.DEDCORATE {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 20%;
+  height: 30px;
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 3px solid #808e9b;
+  margin-right: 20px;
+}
+input:focus {
+  border: none !important;
+  border-bottom: 3px solid #808e9b !important;
+  outline: none !important;
+}
+.buttons {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.StockCompany {
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.companyName {
+  margin-right: 25px;
+}
+@media screen and(max-width:786px) {
+  .companyName {
+    margin-right: 15px;
+  }
+}

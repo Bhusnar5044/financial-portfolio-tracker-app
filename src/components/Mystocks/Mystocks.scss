@@ -1,0 +1,65 @@
+.main {
+  width: 94%;
+  margin: auto;
+}
+
+.MyStocks {
+  height: auto;
+}
+.Title {
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px;
+}
+.MyStocksTable {
+  width: 100%;
+}
+th {
+  background-color: #1c7acc;
+  color: whitesmoke;
+  padding: 8px;
+  border: honeydew 1px solid;
+}
+td {
+  border: 1px solid gainsboro;
+  padding: 4px;
+  color: black;
+  border-collapse: collapse;
+  padding: 6px;
+}
+tr:nth-child(odd) {
+  background-color: linen;
+}
+.StopTrackingBtn {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.692);
+  color: white;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgba(255, 0, 0, 1);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+.icon {
+  font-size: 30px;
+}
+@media screen and(max-width:786px) {
+  .Title {
+    font-size: 5vw;
+    text-align: center;
+  }
+  th {
+    font-size: 0.8rem;
+  }
+  td {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .nope{
+    font-size: 5vw;
+  }
+}
