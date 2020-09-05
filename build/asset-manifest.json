@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/financial-portfolio-tracker-app/static/css/main.eae95a22.chunk.css",
+    "main.js": "/financial-portfolio-tracker-app/static/js/main.8d1aca99.chunk.js",
+    "main.js.map": "/financial-portfolio-tracker-app/static/js/main.8d1aca99.chunk.js.map",
+    "runtime-main.js": "/financial-portfolio-tracker-app/static/js/runtime-main.d39505d0.js",
+    "runtime-main.js.map": "/financial-portfolio-tracker-app/static/js/runtime-main.d39505d0.js.map",
+    "static/css/2.ceb79488.chunk.css": "/financial-portfolio-tracker-app/static/css/2.ceb79488.chunk.css",
+    "static/js/2.63947f34.chunk.js": "/financial-portfolio-tracker-app/static/js/2.63947f34.chunk.js",
+    "static/js/2.63947f34.chunk.js.map": "/financial-portfolio-tracker-app/static/js/2.63947f34.chunk.js.map",
+    "index.html": "/financial-portfolio-tracker-app/index.html",
+    "precache-manifest.ebf897a82b02a992c9125f770bdea06b.js": "/financial-portfolio-tracker-app/precache-manifest.ebf897a82b02a992c9125f770bdea06b.js",
+    "service-worker.js": "/financial-portfolio-tracker-app/service-worker.js",
+    "static/css/2.ceb79488.chunk.css.map": "/financial-portfolio-tracker-app/static/css/2.ceb79488.chunk.css.map",
+    "static/css/main.eae95a22.chunk.css.map": "/financial-portfolio-tracker-app/static/css/main.eae95a22.chunk.css.map",
+    "static/js/2.63947f34.chunk.js.LICENSE.txt": "/financial-portfolio-tracker-app/static/js/2.63947f34.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d39505d0.js",
+    "static/css/2.ceb79488.chunk.css",
+    "static/js/2.63947f34.chunk.js",
+    "static/css/main.eae95a22.chunk.css",
+    "static/js/main.8d1aca99.chunk.js"
+  ]
+}
